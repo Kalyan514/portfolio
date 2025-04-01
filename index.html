@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image on Gradient Website (Right Alignment)</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background: linear-gradient(to right, rgb(255, 114, 114), rgb(255, 255, 255));
+            background-attachment: fixed;
+            display: flex;
+            justify-content: flex-end; /* Align to the right */
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .image-container {
+            text-align: right; /* Align image to the right */
+            padding-right: 20px; /* Add some padding from the right edge */
+            max-width: 50%; /* limit the width of the image container */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .content {
+            color: #333;
+            padding: 20px; /* Align text to the left */
+            max-width: 50%; /* limit the width of the content container */
+        }
+
+        .content h1 {
+            font-size: 3em;
+        }
+
+        .content p {
+            font-size: 1.2em;
+        }
+
+        .social-links {
+            display: flex; /* Use flexbox to align logos horizontally */
+            align-items: center; /* Align logos vertically in the center */
+        }
+
+        .social-links a {
+            margin-right: 10px; /* Add spacing between logos */
+        }
+
+        .social-links a:last-child {
+            margin-right: 0; /* Remove right margin from the last logo */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>KALYAN KUMAR VADLA</h1>
+        <p>Software Enthusiast</p>
+        <div class="social-links">
+            <a href="https://github.com/Kalyan514" target="_blank" rel="noopener noreferrer">
+                <img src="C:\Users\KALYAN\Desktop\SUNNY\github-mark.png" alt="GitHub" width="32" height="32">
+            </a>
+            <a href="https://www.linkedin.com/in/vadlakalyan-kumar-712498287/" target="_blank" rel="noopener noreferrer">
+                <img src="C:\Users\KALYAN\Desktop\SUNNY\brand-inlogo-hero-fg-dsk-v01-2x.png" alt="LinkedIn" width="32" height="32">
+            </a>
+            <a href="C:\Users\KALYAN\Desktop\SUNNY\kalyan_resume.pdf" target="_blank" rel="noopener noreferrer">
+                <img src="C:\Users\KALYAN\Desktop\SUNNY\resume.png" alt="resume" width="32" height="32">
+            </a>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="Gemini_Generated_Image_7qhcfe7qhcfe7qhc-removebg-preview.png" alt="Your Image Description">
+    </div>
+</body>
+</html>
